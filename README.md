@@ -65,12 +65,12 @@ class MyFilter: ImageRelay {
 		let inputType = bnImage.type
 
 		let comic = CIFilter(name: "CIComicEffect")
-        comic?.setValue(inputImage, forKey: kCIInputImageKey)
+		comic?.setValue(inputImage, forKey: kCIInputImageKey)
 
 		if let outputImage = comic?.outputImage {
-            /// Create a new BNImage
+			/// Create a new BNImage
 			let newImage = BNImage(image: outputImage, type: inputType)
-            /// Deliver images to the next consumers
+			/// Deliver images to the next consumers
 			for consumer in consumers {
 				consumer.newImageAvailable(newImage, from: self)
 			}
