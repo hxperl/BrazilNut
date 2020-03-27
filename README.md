@@ -22,11 +22,11 @@ https://github.com/hxperl/BrazilNut.git
 
 1. Source -> Consumer
 
-![concept1](https://github.com/hxperl/BrazilNut/tree/master/Images/concept1.png)
+![concept1](Images/concept1.png)
 
 2. Source -> Filter -> Consumer
 
-![concept2](https://github.com/hxperl/BrazilNut/tree/master/Images/concept2.png)
+![concept2](Images/concept1.png)
 
 
 # How to Create Filter & Apply
