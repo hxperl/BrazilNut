@@ -564,10 +564,5 @@ public extension Camera {
         case noCamerasAvailable
         case unknown
     }
-    
-    enum CameraPosition {
-        case front
-        case rear
-    }
 }
 
