@@ -113,7 +113,7 @@ public class VideoWriter: ImageConsumer, AudioEncodingTarget {
             self.assetWriter.finishWriting {
                 let url = self.assetWriter.outputURL
                 let asset = AVAsset(url: url)
-                callback(asset, self.startTime!)
+                callback(asset, self.startTime)
             }
         } else {
             self.assetWriter.finishWriting{}
